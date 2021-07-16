@@ -11,7 +11,7 @@ body {
 
 body {
   background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -63,7 +63,7 @@ h1 {
   background-size: cover;
   width: 65vw;
   height: 75vh;
-  box-shadow: 0 5px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
 }
 
 .swiper-slide img {
