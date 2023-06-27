@@ -1,26 +1,8 @@
-var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+import swiper from "./scripts/swiper.js";
 
-navbtn = document.querySelector(".btn")
-nav = document.querySelector(".nav")
+const nav = document.querySelector(".nav")
+const navbtn = document.querySelector(".btn")
+
 navbtn.addEventListener("click", () => {
   closeNav()
 })
@@ -30,15 +12,15 @@ function closeNav() {
   nav.classList.toggle("open")
 }
 
-ds_c = document.querySelector("#ds")
-dld_c = document.querySelector("#dld")
-jt_c = document.querySelector("#jt")
+const ds_c = document.querySelector("#ds")
+const dld_c = document.querySelector("#dld")
+const jt_c = document.querySelector("#jt")
 
-ds_b = document.querySelector("#bds")
-dld_b = document.querySelector("#bdld")
-jt_b = document.querySelector("#bjt")
+const ds_b = document.querySelector("#bds")
+const dld_b = document.querySelector("#bdld")
+const jt_b = document.querySelector("#bjt")
 
-last_c = ds_c
+let last_c = ds_c
 
 ds_b.addEventListener("click", (e) => {
   e.preventDefault()
