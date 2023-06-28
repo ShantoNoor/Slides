@@ -1,7 +1,7 @@
 export default function insertHtml(el) {
 	document.querySelector('#dld_d').insertAdjacentHTML('beforeend', `
 		<div class="swiper-slide">
-		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8PAbtGOrlD_6oDXC8uIgovXC8j85Qe77Za8TtM4YFsMTiCTfBlU6lZBJ8IsijRYMNY3whYpWs-KjO/embed?start=false&loop=false&delayms=3000" frameborder="0" loading="lazy" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8PAbtGOrlD_6oDXC8uIgovXC8j85Qe77Za8TtM4YFsMTiCTfBlU6lZBJ8IsijRYMNY3whYpWs-KjO/embed?start=false&loop=false&delayms=3000" frameborder="0" loading="lazy" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 		</div>
 		<div class="swiper-slide">
 			<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQxsqP3X1XdHWWh8wt_lrfGuZQ3PzWei8NoEIUyqUrPSjtcX_dFzieMwhs0B5OxFHmOn9qmKHYkl66n/embed?start=false&loop=false&delayms=3000" frameborder="0" loading="lazy" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

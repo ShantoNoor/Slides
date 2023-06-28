@@ -3,8 +3,7 @@
   padding: 0;
 }
 
-html,
-body {
+html, body {
   position: relative;
   height: 100%;
 }
@@ -104,6 +103,11 @@ ul {
   transition: all .5s ease-out;
 }
 
+ul div {
+  text-align: center;
+  border: solid 1px red;
+}
+
 .open {
   clip-path: circle(3000px at 100% 0%);
   -webkit-clip-path: circle(3000px at 100% 0%);
@@ -113,7 +117,7 @@ li {
   text-decoration: none;
   font-size: 2rem;
   list-style: none;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   cursor: pointer;
   transform: all .3s ease-out;
 }
@@ -170,8 +174,12 @@ li:hover {
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
   h1 {
     font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.5rem;
   }
 }
