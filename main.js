@@ -23,8 +23,8 @@ dld_b.addEventListener("click", (e) => {
   e.preventDefault()
   if (dld_c == undefined) {
     import('./scripts/dld.js')
-    .then(module => module.default)
-    .then(insertHtml => {
+    .then(module => {
+      const insertHtml = module.default;
       insertHtml()
       dld_c = document.querySelector("#dld")
       document.querySelector('.copened').classList.toggle("copened")
@@ -43,8 +43,8 @@ jt_b.addEventListener("click", (e) => {
   e.preventDefault()
   if (jt_c == undefined) {
     import('./scripts/jt.js')
-    .then(module => module.default)
-    .then(insertHtml => {
+    .then(module => {
+      const insertHtml = module.default;
       insertHtml()
       jt_c = document.querySelector("#jt")
       document.querySelector('.copened').classList.toggle("copened")
